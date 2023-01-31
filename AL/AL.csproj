@@ -10,6 +10,7 @@
     <None Remove="Pages\Shared\Schemas\" />
     <None Remove="Pages\Lessons\" />
     <None Remove="Pages\About\" />
+    <None Remove="Pages\Choose\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
@@ -28,5 +29,6 @@
     <Folder Include="Pages\Shared\Schemas\" />
     <Folder Include="Pages\Lessons\" />
     <Folder Include="Pages\About\" />
+    <Folder Include="Pages\Choose\" />
   </ItemGroup>
 </Project>
