@@ -5,7 +5,7 @@ new Chart(ctx, {
     data: {
         labels: ["One", "Twoo", "Three", "Four", "Five", "Six", "Seven"],
         datasets: [{
-            label: 'Dataset',
+            label: 'data',
             data: [65, 59, 80, 81, 56, 55, 40],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -32,7 +32,7 @@ new Chart(ctx, {
         plugins: {
             title: {
                 display: true,
-                text: 'Chart Title',
+                text: 'Title',
             }
         },
         scales: {

@@ -1,4 +1,8 @@
 ﻿@page
 @{
+    var lessonNumber = Request.Query["lessonNumber"];
+
+    ViewData["Title"] = $"Lesson {lessonNumber}";
 }
 
+<p>@lessonNumber</p>
