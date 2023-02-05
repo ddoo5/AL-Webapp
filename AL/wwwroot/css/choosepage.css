@@ -1,7 +1,10 @@
 ﻿.CardContainerAL {
-    width: 70%;
-    height: 70%;
-    margin: 3%;
-    padding: 3%;
     display: grid;
+}
+.CardAL {
+    padding: auto;
+    margin: auto;
+    position: relative;
+    width: 65%;
+    height: 70%;
 }
