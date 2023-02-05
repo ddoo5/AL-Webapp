@@ -30,5 +30,10 @@
     <Folder Include="Pages\Lessons\" />
     <Folder Include="Pages\About\" />
     <Folder Include="Pages\Choose\" />
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\img\" />
+    <Content Remove="wwwroot\img\logo.jpg" />
   </ItemGroup>
 </Project>
