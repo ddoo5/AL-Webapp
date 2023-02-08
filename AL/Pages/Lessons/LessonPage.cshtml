@@ -1,0 +1,46 @@
+﻿@page
+@{
+        var lessonNumber = Request.Query["lessonNumber"];
+
+        ViewData["Title"] = $"Lesson {lessonNumber}";
+
+        var lessonlink = "";
+
+        switch (lessonNumber.FirstOrDefault()) {
+            case "1":
+                lessonlink = "//www.youtube.com/embed/Zo5aDMbn4io?rel=0";
+                break;
+            case "2":
+                lessonlink = "//www.youtube.com/embed/Jqf9haCd6mM?rel=0";
+                break;
+            case "3":
+                lessonlink = "//www.youtube.com/embed/DAlzlebbdPo?rel=0";
+                break;
+            case "4":
+                lessonlink = "//www.youtube.com/embed/lyh2kAjcmSY?rel=0";
+                break;
+            case "5":
+                lessonlink = "//www.youtube.com/embed/hzCc6pp9cq8?rel=0";
+                break;
+            case "6":
+                lessonlink = "//www.youtube.com/embed/sX6J4t2lRu0?rel=0";
+                break;
+            case "7":
+                lessonlink = "//www.youtube.com/embed/eoTpdTU8nTA?rel=0";
+                break;
+            case "8":
+                lessonlink = "//www.youtube.com/embed/UyZfCrrdbm8?rel=0";
+                break;
+            default:
+                lessonlink = "//www.youtube.com/embed/";
+                break;
+        }
+}
+
+<div>
+    <div class="uk-panel">
+        <iframe class="uk-align-left uk-margin-remove-adjacent" width="800rem" height="450rem" src="@lessonlink" title="Lesson @lessonNumber" frameborder="0" allowfullscreen></iframe>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+</div>
