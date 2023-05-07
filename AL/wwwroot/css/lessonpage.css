@@ -1,10 +1,13 @@
 ﻿iframe {
     position: static;
-    width: 80%;
+    width: 85%;
     height: 21rem;
     overflow: auto;
 }
-.itemsss{
+.iframeTest {
+    height: 40rem;
+}
+.itemsss {
     margin: 0 auto;
     display: block;
 }

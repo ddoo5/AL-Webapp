@@ -1,7 +1,10 @@
 ﻿.MainPageAL {
     margin: 2%;
 }
-.MainPageItemText1 {
+.MainPageItemText1{
     margin: auto;
     padding: auto;
+}
+.col {
+    text-align: center;
 }
